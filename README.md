@@ -17,6 +17,10 @@ To see scoverage in action check out the [samples](https://github.com/scoverage/
 
 ### Release History
 
+##### 5th November 2014 0.99.11
+
+* Fixed issue with index.html being overwritten in reports if another index.html in classpath
+
 ##### 3rd November 2014 0.99.10
 
 * Fixed command line options due to changes in Scala 2.11.3+
@@ -171,7 +175,7 @@ There are still only a few code coverage tools for Scala. Here are two that we k
 ```
 This software is licensed under the Apache 2 license, quoted below.
 
-Copyright 2013 Stephen Samuel
+Copyright 2013-2014 Stephen Samuel
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not
 use this file except in compliance with the License. You may obtain a copy of
