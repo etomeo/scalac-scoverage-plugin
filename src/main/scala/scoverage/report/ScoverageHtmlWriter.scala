@@ -459,7 +459,7 @@ class ScoverageHtmlWriter(sourceDirectory: File, outputDir: File) {
           {coverage.packageCount.toString}
         </td>
         <td>
-          Clases per package:
+          Classes per package:
         </td>
         <td>
           {coverage.avgClassesPerPackageFormatted}
